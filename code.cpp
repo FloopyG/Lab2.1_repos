@@ -1,3 +1,8 @@
+// code.cpp
+// Огонюк Назар
+// Лабораторна робота No 2.1
+// Лінійні програми.
+// Варіант 12
 #include <iostream>
 #include <cmath>
 
@@ -5,16 +10,15 @@ using namespace std;
 
 
 int main() {
+	double Pi = 4 * atan(1.);
 	double a;
-	double b;
 	double z1;
 	double z2;
 
 	cout << "a = "; cin >> a;
-	cout << "b = "; cin >> b;
 
-	z1 = (sin(a) + cos(2 * b - a)) / (cos(a) - sin(2 * b - a));
-	z2 = (1 + sin(2 * b)) / (cos(2 * b));
+	z1 = (sin(4 * a) / (1 + cos(4 * a)) * (cos(2 * a) / (1 + cos(2 * a));
+	z2 = 1./tan(x) * (3./2 * Pi - a);
 
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
